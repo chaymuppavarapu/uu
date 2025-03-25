@@ -1,12 +1,7 @@
-test/unit.test.js
-
-
 const assert = require('chai').assert;
 
-// Example JavaScript function in the static HTML file
-function greet() {
-  return 'Hello from Docker!';
-}
+// Ensure the function is properly imported or defined
+const { greet } = require('../path/to/your/module'); // Update the path accordingly
 
 describe('Unit Tests', () => {
   it('should return the correct greeting message', () => {
